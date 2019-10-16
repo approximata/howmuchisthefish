@@ -1,0 +1,36 @@
+body {
+    background-color: #4F5259;
+}
+main {
+    background-color: #666970;
+    margin: 5%;
+    padding: 2%;
+}
+h1{
+    color: #D96B43;
+}
+
+.input-wrapper, .output-wrapper {
+    color: #F2F2F2
+}
+
+.button {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #D96B43;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+.button:hover {
+    background: #4F5259;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
