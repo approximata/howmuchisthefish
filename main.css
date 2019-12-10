@@ -1,0 +1,15 @@
+body{
+    display:flex;
+    justify-content: center;
+}
+.content {
+    background-color: #f2f2f2;
+    margin: 2%;
+    padding: 0 2%;
+    min-height: 300px;
+    min-width: 480px;
+}
+
+.fish-class {
+    margin:1%;
+}
