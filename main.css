@@ -3,13 +3,26 @@ body{
     justify-content: center;
 }
 .content {
-    background-color: #f2f2f2;
+    background-color: #aaaaaa;
     margin: 2%;
     padding: 0 2%;
-    min-height: 300px;
-    min-width: 480px;
+    min-height: 300px;    min-width: 480px;
+    color: #333333;
 }
 
 .fish-class {
     margin:1%;
+}
+
+.big {
+    filter: saturate(5);
+}
+
+.small {
+    filter: hue-rotate(90deg);
+}
+
+.amount-of-fish {
+    margin: 2% 0;
+    font-weight: 600;
 }
