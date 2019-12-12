@@ -34,3 +34,44 @@ h1{
     box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
     transition: all 0.4s ease 0s;
 }
+
+.amount-wrapper {
+    display: flex;
+    margin: 3%;
+    flex-direction: column;
+    font-size: medium;
+    font-weight: 600;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+
+.amount-wrapper > div {
+    margin: 5px 0;
+}
+
+.input-wrapper {
+    display: flex;
+    font-size: medium;
+    font-weight: 600;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 50%;
+}
+
+.input-wrapper > input {
+    width: 50px;
+    text-align: right;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.fish-wrapper {
+    display: flex;
+    margin: 3%;
+    flex-direction: column;
+    font-size: medium;
+    font-weight: 600;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
